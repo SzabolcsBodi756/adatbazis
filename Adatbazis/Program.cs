@@ -4,7 +4,6 @@ namespace Adatbazis
 {
 
     public class Data
-
     {
         public int Id { get; set; }
 
@@ -75,7 +74,6 @@ namespace Adatbazis
             {
                 Console.WriteLine("Something went wrong. Fatal error. Fuck you.");
             }
-
         }
     }
 
@@ -95,6 +93,7 @@ namespace Adatbazis
 
             Connect kapcsolat = new Connect(nev, felhasznaloNev, jelszo);
             kapcsolat.kapcsolodas();
+
         }
     }
 }
