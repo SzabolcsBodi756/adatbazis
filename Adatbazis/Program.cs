@@ -32,9 +32,16 @@ namespace Adatbazis
     {
         static void Main(string[] args)
         {
-            /*List<Connect> lista = new List<Connect>();
+            //List<Connect> lista = new List<Connect>();
 
-            MySqlConnection kapcs = new MySqlConnection("server = server.fh2.hu;database = v2labgwj_12a; uid = v2labgwj_12a; password = 'HASnEeKvbDEPGgvTZubG'");
+            Console.WriteLine("Kérem adja meg az adatbázis nevét:");
+            string nev = Console.ReadLine();
+            Console.WriteLine("Kérem adja meg az adatbázis felhasználó nevét:");
+            string felhasznaloNev = Console.ReadLine();
+            Console.WriteLine("Kérem adja meg az adatbázis jelszavát nevét:");
+            string jelszo = Console.ReadLine();
+
+            /*MySqlConnection kapcs = new MySqlConnection("server = server.fh2.hu;database = v2labgwj_12a; uid = v2labgwj_12a; password = 'HASnEeKvbDEPGgvTZubG'");
 
             kapcs.Open();
             // lekérdezés - SELECT
