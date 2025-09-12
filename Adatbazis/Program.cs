@@ -79,8 +79,6 @@ namespace Adatbazis
         }
     }
 
-        
-
     internal class Program
     {
         static void Main(string[] args)
