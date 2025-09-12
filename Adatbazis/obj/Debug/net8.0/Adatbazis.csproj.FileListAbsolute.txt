@@ -38,3 +38,4 @@ C:\Users\Bodisz\source\repos\Adatbazis\Adatbazis\obj\Debug\net8.0\refint\Adatbaz
 C:\Users\Bodisz\source\repos\Adatbazis\Adatbazis\obj\Debug\net8.0\Adatbazis.pdb
 C:\Users\Bodisz\source\repos\Adatbazis\Adatbazis\obj\Debug\net8.0\Adatbazis.genruntimeconfig.cache
 C:\Users\Bodisz\source\repos\Adatbazis\Adatbazis\obj\Debug\net8.0\ref\Adatbazis.dll
+C:\Users\Bodisz\source\repos\Adatbazis\Adatbazis\obj\Debug\net8.0\Adatbazis.sourcelink.json
