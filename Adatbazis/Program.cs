@@ -3,6 +3,47 @@
 namespace Adatbazis
 {
 
+    /*public class Connection
+    {
+
+        public MySqlConnection connection_;
+
+        private string Host { get; set; }
+
+        private string Database { get; set; }
+
+        private string User { get; set; }
+
+        private string Password { get; set; }
+
+        private string ConnectionString { get; set; }
+
+        public Connection(string database)
+        {
+            Host = "localhost";
+            Database = database;
+            User = "root";
+            Password = "";
+
+            ConnectionString = $"SERVER={Host}; DATABASE={Database}; UID={User}; PASSWORD={Password}; SslMode=None";
+
+            connection_ = new MySqlConnection(ConnectionString);
+
+            try
+            {
+                connection_.Open();
+
+                Console.WriteLine("Sikeres csatlakozás");
+
+                connection_.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }*/
+
     public class Data
     {
         public int Id { get; set; }
@@ -82,6 +123,10 @@ namespace Adatbazis
         static void Main(string[] args)
         {
 
+            /*Console.WriteLine("Kérem az adatbázis nevét: ");
+            string dbName = Console.ReadLine();
+            Connection conn = new Connection(dbName);*/
+
             Console.WriteLine("Kérem adja meg az adatbázis nevét:");
             string nev = Console.ReadLine();
 
@@ -97,3 +142,4 @@ namespace Adatbazis
         }
     }
 }
+    
